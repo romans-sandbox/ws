@@ -6,7 +6,7 @@ const TWITTER_CONSUMER_SECRET = 'gxWoM9qKR3ZRHZGxac18I5JJAglhwZe1kVwgYeSrKvLEoH4
 const TWITTER_ACCESS_TOKEN_KEY = '709412533468327936-oOkRjmfIWAEJVeGI7NypXsjpw2Xz8u6';
 const TWITTER_ACCESS_TOKEN_SECRET = 'SGY7Prz1b5ONhXvlVwHFfyw33e9AfvLLRDRmFemaMk1kn';
 
-const TWITTER_TRACK = '#trump';
+const TWITTER_TRACK = '#Carlowrie';
 
 const wss = new WebSocket.Server({
   port: process.env.PORT || 8081
