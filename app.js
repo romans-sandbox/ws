@@ -9,7 +9,7 @@ const TWITTER_ACCESS_TOKEN_SECRET = 'SGY7Prz1b5ONhXvlVwHFfyw33e9AfvLLRDRmFemaMk1
 const TWITTER_TRACK = '#trump';
 
 const wss = new WebSocket.Server({
-  port: 8081
+  port: process.env.PORT || 8081
 });
 
 wss.broadcast = function (data) {
